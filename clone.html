@@ -11,11 +11,11 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <div class="hamburger sideicon" style="margin-top: 10px;">
+            <span class="hamburger sideicon" style="margin-top: 1px; margin-left: 25px; height: 20px; width: 20px;">
                 <span class="material-symbols-outlined">
                     menu
                 </span>
-            </div>
+            </span>
             <div class="home sideicon">
                 <span class="material-symbols-outlined">
                     home
@@ -41,9 +41,65 @@
                 Library
             </div>
         </div>
+        <div class="searchspace">
+            <div class="iconspace">
+                <img src="youtubeicon.svg" alt="">
+                <h3>YouTube</h3>
+                <sup style="font-size: 10px; color: rgb(74, 74, 74);" >IN</sup>
+            </div>
+            <div class="searchbar">
+                <input type="text" placeholder="Search" style="
+                    border-radius: 20px; 
+                    height: 30px; 
+                    width: 500px;
+                    border: 2px solid rgb(154, 154, 154);
+                    position: fixed;
+                    left: 25%;
+                    top: 4.5%;
+                " >
+                <span class="material-symbols-outlined" style="
+                    position: fixed;
+                    left: 66%;
+                    top: 5.3%;
+                    font-size: 24px;
+                    color: rgb(61, 61, 61);
+                    cursor: default;
+                ">  
+                    mic
+                </span>
+            </div>
+            <div class="profile">
+                <span class="material-symbols-outlined" id="profileicons" style="
+                    position: fixed;
+                    left: 88.6%;
+                    top: 3%;
+                    cursor: pointer;
+                    padding: 10px;
+                ">
+                    video_call
+                </span>
+                <span class="material-symbols-outlined" id="profileicons" style="
+                    position: fixed;
+                    left: 92.4%;
+                    top: 3%;
+                    padding: 10px;
+                ">
+                    notifications
+                </span>
+                <span id="profileicons">
+                    <img src="profile.jpg" alt="" style="
+                    position: fixed;
+                    left: 97%;
+                    top: 4%;
+                    height: 30px;
+                    border-radius: 50%;
+                    ">
+                </span>
+            </div>
         <div class="header"></div>
         <div class="main">
 
+        </div>
         </div>
     </div>
     <script src="clone.js"></script>
